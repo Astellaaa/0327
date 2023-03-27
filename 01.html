@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html">
+        <select name="food1">
+            <option value="kimbap">김밥</option>
+            <option value="ddukbokki">떡볶이</option>
+            <option value="ramen">라면</option>
+        </select>
+        <br>
+        <br>
+        <select name="food2" multiple="multiple">
+            <option value="cola">콜라</option>
+            <option value="soda">사이다</option>
+            <option value="juice">주스</option>
+        </select>
+        <br>
+        <br>
+        <select name="food3">
+            <optgroup label="분식">
+                <option value="kimbap">김밥</option>
+                <option value="ddukbokki">떡볶이</option>
+                <option value="ramen">라면</option>
+            </optgroup>
+            <optgroup>
+                <option value="cola">콜라</option>
+                <option value="soda">사이다</option>
+                <option value="juice">주스</option>
+            </optgroup>
+        </select>
+        <button type="submit">전송</button>
+    </form>
+</body>
+</html>
